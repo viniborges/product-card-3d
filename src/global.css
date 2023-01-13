@@ -1,0 +1,19 @@
+:root {
+    --purple-100: #D9CDF7;
+    --purple-900: #271A45;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+}
+
+body {
+    color: var(--purple-900);
+    background-color: var(--purple-100);
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    -webkit-font-smoothing: antialiased;
+}
