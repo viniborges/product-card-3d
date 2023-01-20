@@ -1,47 +1,70 @@
 .container {
-    display: flex;
+  display: flex;
 }
 
 .containerSplit {
-    flex: 1;
-    height: 100vh;
+  flex: 1;
+  height: 100vh;
 }
 
 .containerProductImage {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: end;
-    height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: end;
+  height: 100vh;
+}
+
+.buttonView {
+  height: 32px;
+  width: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  margin-right: 60px;
+  /* margin-bottom: -30px; */
+}
+
+.buttonView > img:hover {
+  opacity: 0.7;
 }
 
 .containerProductDetails {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: start;
-    height: 100vh;
-    gap:0.75rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  height: 100vh;
+  gap: 0.75rem;
 }
 
-.containerProductDetails>button {
-    color: var(--purple-900);
-    line-height: 1rem;
-    font-size: 0.75rem;
-    font-weight: 400;
-    border: 0.5px solid;
-    border-radius: 999px;
-    padding: 8px 16px;
-    cursor: pointer;
-    background: transparent;
+.containerProductDetails > button {
+  color: var(--purple-900);
+  line-height: 1rem;
+  font-size: 0.75rem;
+  font-weight: 400;
+  border: 0.5px solid;
+  border-radius: 999px;
+  padding: 8px 16px;
+  cursor: pointer;
+  background: transparent;
 }
 
-.containerProductDetails>button:hover {
-    background-color: var(--purple-900);
-    color: var(--purple-100);
+.containerProductDetails > button:hover {
+  background-color: var(--purple-900);
+  color: var(--purple-100);
+}
+
+.containerViewProduct {
+  min-width: 450px;
+  min-height: 218px;
+  max-width: 450px;
+  max-height: 218px;
+  height: auto;
 }
 
 h1 {
-    font-family: 'Crimson Pro', serif;
-    font-weight: 600;
+  font-family: "Crimson Pro", serif;
+  font-weight: 600;
 }
